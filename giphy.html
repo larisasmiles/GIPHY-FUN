@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title>Funny Quotes</title>
+      
+      <link rel="stylesheet" href="normalize.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+
+        <div class="container-fluid" id="container">
+
+            <div class="row" id="buttonsRow">
+
+                <div class="col-xs-12 col-s-12 col-md-12 col-lg-12">
+
+                    <h1>Plug In a Quote and Watch it GIF Style</h1>
+                    <br>
+                    <!-- Rendered Buttons will get Dumped Here  -->
+                    <div id="buttonsDiv"></div>
+
+                    <form id="quoteForm">
+                        <label for="quoteInput">type a quote here!</label>
+                        <input type="text" id="quoteInput">
+                        <input id="addquote" type="submit" value="Add Quote">
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-s-12 col-md-12 col-lg-12">
+                    <!-- Gifs will get Dumped Here  -->
+                    <div id="gifDiv"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Remote jQuery, javascript file for the Bootstrap's javascript file to function -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Local JavaScript file -->
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
