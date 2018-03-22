@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+#ps {
+  font-size: 15px;
+}
+button {
+  background-color: rgb(255, 72, 0);
+  margin: 3%;
+  
+}
+.butt {
+  color: white;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  height: 50px;
+  margin: .5%;
+  opacity: .75;
+}
+.butt:hover {
+  opacity: 1;
+}
+
+#gifInput {
+  margin: 3%; 
+}
+
+#newGifButtons {
+  /* width: 40%; */
+}
+
+#gifShown {
+  margin: 3%;
+  widows: 200px;
+  height: 200px;
+}
+
+img {
+  margin: 3%;
+  width: 200px;
+  height: 150px;
+}
+
+.gifDisplay {
+  width: 30%;
+  float: left;
+  
+}
